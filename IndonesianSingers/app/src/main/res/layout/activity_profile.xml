@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             xmlns:tools="http://schemas.android.com/tools">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/about_photo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_height"
+            android:src="@drawable/photo_profile"
+            android:layout_marginTop="@dimen/about_marginTop"
+            android:layout_centerHorizontal="true"
+            tools:src="@android:color/darker_gray" />
+
+    <TextView android:id="@+id/about_name"
+              android:layout_width="wrap_content"
+              android:layout_below="@id/about_photo"
+              android:layout_height="wrap_content"
+              android:text="@string/about_name"
+              android:layout_marginTop="20dp"
+              android:textSize="30dp"
+              android:layout_centerHorizontal="true"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/about_name"
+              android:layout_centerHorizontal="true"
+              android:textSize="20dp"
+              android:layout_marginTop="10dp"
+              android:text="indrasimorangkir1@hotmail.com"/>
+
+</RelativeLayout>
